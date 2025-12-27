@@ -70,6 +70,7 @@ flightradar24.com
 cdn77.com
 play.google.com
 genderize.io
+chatgpt.com
 EOF
 )
 sites_clean=$(echo "$SITES" | grep -v '^#' | grep -v '^\s*$'); total=$(echo "$sites_clean" | wc -l); half=$(( (total + 1) / 2 ))
